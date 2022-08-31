@@ -8,7 +8,7 @@ const Playing = () => {
         useContext(Songs)
 
     return (
-        <div className="flex-1">
+        <div className="flex-1 lg:w-full">
             <AudioPlayer
                 showJumpControls={false}
                 showSkipControls
