@@ -8,6 +8,7 @@
         "@testing-library/react": "^13.3.0",
         "@testing-library/user-event": "^13.5.0",
         "gh-pages": "^4.0.0",
+        "npm": "^10.0.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-h5-audio-player": "^3.8.4",
@@ -46,5 +47,6 @@
         "tailwindcss": "^3.1.6"
     },
     "main": "index.js",
-    "license": "MIT"
+    "license": "MIT",
+    "repository": "https://github.com/git-cabbage/music-player-v1.git"
 }
