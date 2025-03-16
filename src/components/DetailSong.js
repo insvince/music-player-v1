@@ -13,10 +13,7 @@ const DetailSong = () => {
                 {status}
             </h2>
             <div className="w-[240px] m-auto mt-10 xl:w-[180px] lg:w-[80px] lg:mt-3 sm:hidden">
-                <img
-                    src="https://i.scdn.co/image/ab6761610000e5ebc02d416c309a68b04dc94576"
-                    alt="avatar"
-                />
+                <img src={song.links.images[0].url} alt="avatar" className='w-60' />
             </div>
         </div>
     )
