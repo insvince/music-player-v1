@@ -13,7 +13,14 @@ const DetailSong = () => {
                 {status}
             </h2>
             <div className="w-[240px] m-auto mt-10 xl:w-[180px] lg:w-[80px] lg:mt-3 sm:hidden">
-                <img src={song.links.images[0].url} alt="avatar" className='w-60' />
+                <img
+                    src={
+                        song.links?.images?.length > 0 &&
+                        song.links.images[0].url
+                    }
+                    alt="avatar"
+                    className="w-60"
+                />
             </div>
         </div>
     )
